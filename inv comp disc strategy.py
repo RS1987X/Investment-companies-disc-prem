@@ -181,12 +181,12 @@ disc_reported_navs.name = 'discount to navs'
 
 disc_reported_navs = pd.merge(disc_reported_navs,induc_disc_reported_nav, on='Date',how='outer')
 disc_reported_navs.name = 'discount to navs'
-disc_reported_navs = pd.merge(disc_reported_navs,inveb_disc_reported_nav, on='Date',how='outer')
-disc_reported_navs = pd.merge(disc_reported_navs,kinvb_disc_reported_nav, on='Date',how='outer')
-disc_reported_navs = pd.merge(disc_reported_navs,latob_disc_reported_nav, on='Date',how='outer')
-disc_reported_navs = pd.merge(disc_reported_navs,svolb_disc_reported_nav, on='Date',how='outer')
-disc_reported_navs = pd.merge(disc_reported_navs,vef_disc_reported_nav, on='Date',how='outer')
-disc_reported_navs = pd.merge(disc_reported_navs,vnv_disc_reported_nav, on='Date',how='outer')
+# disc_reported_navs = pd.merge(disc_reported_navs,inveb_disc_reported_nav, on='Date',how='outer')
+# disc_reported_navs = pd.merge(disc_reported_navs,kinvb_disc_reported_nav, on='Date',how='outer')
+# disc_reported_navs = pd.merge(disc_reported_navs,latob_disc_reported_nav, on='Date',how='outer')
+# disc_reported_navs = pd.merge(disc_reported_navs,svolb_disc_reported_nav, on='Date',how='outer')
+# disc_reported_navs = pd.merge(disc_reported_navs,vef_disc_reported_nav, on='Date',how='outer')
+# disc_reported_navs = pd.merge(disc_reported_navs,vnv_disc_reported_nav, on='Date',how='outer')
 
 #disc_reported_navs = pd.concat([bure_disc_reported_nav, cred_disc_reported_nav, induc_disc_reported_nav,inveb_disc_reported_nav,kinvb_disc_reported_nav, latob_disc_reported_nav, lundb_disc_reported_nav, svolb_disc_reported_nav, vef_disc_reported_nav, vnv_disc_reported_nav],axis=1)
 #closes =  pd.concat([bure_close, cred_close, induc_close,inveb_close,kinvb_close, latob_close, lundb_close, svolb_close, vef_close, vnv_close],axis=1)
