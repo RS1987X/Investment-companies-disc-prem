@@ -99,7 +99,6 @@ cred_disc_calc_nav = cred_close/cred_calc_nav-1
 cred_disc_reported_nav.name = "creades reported nav discount"
 
 
-
 induc_close = induc["Close"].astype(float, errors = 'raise')
 induc_last_reported_nav = induc["Last NAV"].astype(float, errors = 'raise')
 induc_calc_nav = induc["Calc NAV"].astype(float, errors = 'raise')
